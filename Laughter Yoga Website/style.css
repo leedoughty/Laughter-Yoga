@@ -5,75 +5,90 @@ html {
   margin: 0;
   background-color: #E5E5E5;
 }
-
-#svg {
-  background-color: blue;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* #l {
-  color: white;
-} */
-
-/* HOVER COLOR */
-
-/* a svg:hover #l{
-  fill: #111;
-} */
-
-/* GENERAL STYLES */
-
-/* body {
-  background-color: #bad0b8;
-  background-image: -webkit-linear-gradient(right, #FC7864, #FDA366);
-  background-image: -moz-linear-gradient(right, #FC7864, #FDA366);
-  background-image: -o-linear-gradient(right, #FC7864, #FDA366);
-  background-image: -ms-linear-gradient(right, #FC7864, #FDA366);
-  background-image: linear-gradient(right, #FC7864, #FDA366);
-}
-article {
-  width: 100%;
-  margin: 60px auto;
-  text-align: center;
-  zoom: 2;
-}
-a {
-  outline: none;
-  border: 0;
-  text-decoration: none;
-}
-a svg #l{
-  transition: 200ms;
-  transition-timing-function: ease-in-out;
-  -webkit-transition: 200ms;
-  -webkit-transition-timing-function: ease-in-out;
-} */
-
 .frontpage {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-} */
-
-
-h1 {
-  width: 100%;
-  height: 100%;
+  background-repeat: no-repeat;
   position: absolute;
-  padding-top: 550px;
+  height: 100px;
+  width: 1000px;
+  top: 35%;
+  left: 50%;
+  margin-left: -600px;
+  margin-right: -500px;
   text-align: center;
-  vertical-align: middle;
+}
+.smileyface {
+  background-image: url("mascot2.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 500px;
+  width: 1000px;
+  top: 30%;
+  left: 68%;
+  text-align: center;
+}
+.smileyface:hover {
+  background-image: url("mascot1.png");
+}
+h1 {
+  text-align: center;
   font-size: 6rem;
-  line-height: 90px;
   font-weight: 700;
   color: white;
   font-family: 'Playfair Display', serif;
-  display: inline-block;
 }
+h1:hover {
+  color: red;
+}
+h1:
+.laugh1 {
+  visibility: hidden;
+}
+.frontpage2 {
+  position: absolute;
+  height: 100px;
+  width: 1000px;
+  top: 90%;
+  left: 50%;
+  margin-left: -500px;
+  margin-right: -500px;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: white;
+  font-family: 'Helvetica', serif;
+}
+audio {
+  visibility: hidden;
+}
+.video {
+
+   /* z-index: 1; */
+
+   width: 250px;
+   /* height: 300px; */
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   margin-left: -150px;
+   margin-top: -150px;
+}
+
+/*
+#svg {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#l {
+  color: white;
+}
+
+a:hover #l{
+  fill: black;
+} */
