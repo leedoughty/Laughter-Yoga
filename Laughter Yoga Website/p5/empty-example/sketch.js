@@ -22,17 +22,18 @@ function mouseMoved() {
     //        var b = 225;
            // console.log("colorchanging");
 
-          // var r = map(mouseX, 0, 600, 0, 255);
-          // var b = map(mouseX, 0, 600, 255, 255);
+          var r = map(mouseX, 0, 600, 0, 255);
+          var b = map(mouseX, 0, 600, 255, 255);
           // var col = (r, 0, b);
 
-          bgcolor = color(random(255));
+          bgcolor = color(r, 0, b);
     // var col = color(255, 255, 0);
     // h1.style("color", col);
     // fill(r, 0, b);
 }
 
 function draw() {
+    frameRate(10);
     // h1.style("color", col);
     h1.style("color", bgcolor);
 
