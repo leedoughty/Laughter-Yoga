@@ -12,12 +12,12 @@ html {
   width: 1000px;
   top: 35%;
   left: 50%;
-  margin-left: -600px;
+  margin-left: -500px;
   margin-right: -500px;
   text-align: center;
 }
 .smileyface {
-  background-image: url("mascot2.png");
+  /* background-image: url("mascot2.png"); */
   background-repeat: no-repeat;
   position: absolute;
   height: 500px;
@@ -27,18 +27,18 @@ html {
   text-align: center;
 }
 .smileyface:hover {
-  background-image: url("mascot1.png");
+  /* background-image: url("mascot1.png"); */
 }
 h1 {
   text-align: center;
   font-size: 6rem;
   font-weight: 700;
-  color: white;
+  /* color: white; */
   font-family: 'Playfair Display', serif;
 }
-h1:hover {
+/* h1:hover {
   color: red;
-}
+} */
 h1:
 .laugh1 {
   visibility: hidden;
